@@ -1,0 +1,41 @@
+# Vetology Data Security - Confidential Files
+# Never upload Vetology dataset or patient information to GitHub
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.html
+*.json
+peer_review_checklist.md
+Example White Paper*
+
+# Modular development files (kept locally)
+config.py
+confusion_matrix.py
+llm_client.py
+main.py
+reader.py
+score_gold_standard.py
+writer.py
+prompts/
+
+# Environment variables and API keys
+.env
+.env.*
+*.key
+*.token
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
